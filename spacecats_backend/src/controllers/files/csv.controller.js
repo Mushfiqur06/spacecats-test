@@ -58,6 +58,26 @@ const upload = async (req, res) => {
   }
 };
 
+const search = async (req, res) => {
+  try {
+    console.log([, Date.parse(req.query.to)])
+    const fileList = await Files.findAll({
+      where: {
+        formatted_date: {
+          [Op.gte]: new Date(Date.parse(req.query.from)),
+          [Op.lte]: new Date(Date.parse(req.query.to)).setHours(23)
+        }
+      }
+    });
+    res.send(fileList);
+  } catch (err) {
+    res.status(500).send({
+      message:
+        err.message || "Some error occurred while retrieving files data.",
+    });
+  }
+};
+
 const getFilesData = async (req, res) => {
   try {
     const fileList = await Files.findAll();
@@ -98,4 +118,5 @@ module.exports = {
   upload,
   getFilesData,
   download,
+  search
 };

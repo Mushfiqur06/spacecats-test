@@ -1,5 +1,5 @@
 module.exports = (sequelize, Sequelize) => {
-  const Files = sequelize.define("weather_history", {
+  const Files = sequelize.define("weathers_histories", {
     formatted_date: {
       type: Sequelize.DATE,
     },

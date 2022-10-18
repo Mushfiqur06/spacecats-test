@@ -12,7 +12,7 @@ db.sequelize.sync();
 
 initRoutes(app);
 
-let port = 4001;
+let port = 4000;
 app.listen(port, () => {
 	console.log(`Running at localhost:${port}`);
 });
