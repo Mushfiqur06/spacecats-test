@@ -60,7 +60,6 @@ const upload = async (req, res) => {
 
 const search = async (req, res) => {
   try {
-    console.log([, Date.parse(req.query.to)])
     const fileList = await Files.findAll({
       where: {
         formatted_date: {
