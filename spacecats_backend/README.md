@@ -1,7 +1,6 @@
 ## CSV File Import 
 
 ##Images
-()<p align="center">
-  <img src="https://drive.google.com/file/d/1H-6CoyHawYWxgRruxxRtRLTAbhn89R6h/view?usp=sharing" title="Database">
-  <img src="https://drive.google.com/file/d/1QPhScaAZaxGlT3GDP-mj6gWnC3Un5vl5/view?usp=sharing" title="Database">
-</p>
+<img width="443" alt="Database Table" src="https://user-images.githubusercontent.com/17401118/196498928-21d5fdeb-1970-4393-a8c5-d42d44a71837.PNG">
+
+<img width="960" alt="database" src="https://user-images.githubusercontent.com/17401118/196499014-a30a5470-3091-4520-8d15-3c06df8adb71.PNG">
