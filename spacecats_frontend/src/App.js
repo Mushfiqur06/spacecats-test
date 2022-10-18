@@ -1,8 +1,9 @@
 import './App.css';
+import Table from './components/Tables';
 
 function App() {
   return (
-    <div >Hello</div>
+    <Table />
   );
 }
 
